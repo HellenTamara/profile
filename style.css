@@ -123,3 +123,15 @@ h1 {
   bottom:0px;
   left:90%;
 }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .junimo {
+    left:87%;
+    width: 2.5rem;
+  }
+
+  .block {
+    width: 92%;
+  }
+}
