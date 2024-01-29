@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=VT323&display=swap');
+@font-face {
+  font-family: Handy;
+  src: url('fonts/handy00.ttf');
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  font-family: DotGothic16;
+  letter-spacing: 0.4px;
+  color: #140F50;
+}
+
+.pixel-corners {
+  clip-path: polygon(
+    0px 8px,
+    4px 8px,
+    4px 4px,
+    8px 4px,
+    8px 0px,
+    calc(100% - 8px) 0px,
+    calc(100% - 8px) 4px,
+    calc(100% - 4px) 4px,
+    calc(100% - 4px) 8px,
+    100% 8px,
+    100% calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 8px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 8px) 100%,
+    8px 100%,
+    8px calc(100% - 4px),
+    4px calc(100% - 4px),
+    4px calc(100% - 8px),
+    0px calc(100% - 8px)
+  );
+}
+
+.block {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  width: 70%;
+  height: auto;
+  margin: 30px auto;
+  padding: 3px;
+  text-align: center;
+}
+
+.header p {
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+h1, h2 {
+  font-family: Handy;
+  color: #E3793D;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.btn-orange {
+  width: 13rem;
+  height: 2rem;
+  margin: 25px auto;
+  padding-top: 6px;
+  background-color: #E3793D;
+}
+
+.btn-orange:hover {
+  background-color: #140F50;
+}
+
+.btn-txt {
+  text-decoration: none;
+  color: #FCC77A;
+}
+
+.logo {
+  width: 120px;
+}
+
+.character-pic {
+  width: 200px;
+  margin: 10px;
+}
+
+.gifts-list {
+  columns: 2;
+  width: 50%;
+  margin: 15px auto;
+}
+
+.download h2{
+  color: #140F50;
+}
+
+.download-icons, .gifts-list{
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+.download-icons li{
+  display: inline-block;
+}
+
+.download-icons i{
+  color: #140F50;
+  font-size: 25px;
+}
+
+.fa-apple {
+  margin: 0 20px;
+}
+
+.junimo {
+  position:fixed;
+  bottom:0px;
+  left:90%;
+}
